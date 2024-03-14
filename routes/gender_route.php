@@ -1,0 +1,13 @@
+<?php
+if($page=="create-gender"){
+	$found=include("views/pages/ui/gender/create_gender.php");
+}elseif($page=="edit-gender"){
+	$found=include("views/pages/ui/gender/edit_gender.php");
+}elseif($page=="genders"){
+	$found=include("views/pages/ui/gender/manage_gender.php");
+}elseif($page=="details-gender"){
+	$found=include("views/pages/ui/gender/details_gender.php");
+}elseif($page=="view-gender"){
+	$found=include("views/pages/ui/gender/view_gender.php");
+}
+?>

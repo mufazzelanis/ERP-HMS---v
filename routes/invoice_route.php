@@ -1,0 +1,13 @@
+<?php
+if($page=="create-invoice"){
+	$found=include("views/pages/ui/invoice/create_invoice.php");
+}elseif($page=="edit-invoice"){
+	$found=include("views/pages/ui/invoice/edit_invoice.php");
+}elseif($page=="invoices"){
+	$found=include("views/pages/ui/invoice/manage_invoice.php");
+}elseif($page=="details-invoice"){
+	$found=include("views/pages/ui/invoice/details_invoice.php");
+}elseif($page=="view-invoice"){
+	$found=include("views/pages/ui/invoice/view_invoice.php");
+}
+?>

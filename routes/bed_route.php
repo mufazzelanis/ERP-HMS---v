@@ -1,0 +1,13 @@
+<?php
+if($page=="create-bed"){
+	$found=include("views/pages/ui/bed/create_bed.php");
+}elseif($page=="edit-bed"){
+	$found=include("views/pages/ui/bed/edit_bed.php");
+}elseif($page=="beds"){
+	$found=include("views/pages/ui/bed/manage_bed.php");
+}elseif($page=="details-bed"){
+	$found=include("views/pages/ui/bed/details_bed.php");
+}elseif($page=="view-bed"){
+	$found=include("views/pages/ui/bed/view_bed.php");
+}
+?>

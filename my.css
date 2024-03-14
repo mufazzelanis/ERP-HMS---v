@@ -1,0 +1,22 @@
+a.brand-link {
+    background-color: #70fff0;
+}
+nav.main-header.navbar.navbar-expand.navbar-white.navbar-light {
+    background-color: #70fff0;
+}
+.layout-fixed .main-sidebar {
+    bottom: 0;
+    float: none;
+    left: 0;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+}
+
+element.style {
+    background-color: #ffe7e7;
+    padding: 10px;
+    border-radius: 10px;
+    border: 4px solid #6699ff;
+    margin-top: 10px;
+}

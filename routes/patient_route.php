@@ -1,0 +1,13 @@
+<?php
+if($page=="create-patient"){
+	$found=include("views/pages/patient/create_patient.php");
+}elseif($page=="edit-patient"){
+	$found=include("views/pages/patient/edit_patient.php");
+}elseif($page=="patients"){
+	$found=include("views/pages/patient/manage_patient.php");
+}elseif($page=="details-patient"){
+	$found=include("views/pages/patient/details_patient.php");
+}elseif($page=="view-patient"){
+	$found=include("views/pages/patient/view_patient.php");
+}
+?>

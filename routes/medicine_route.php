@@ -1,0 +1,13 @@
+<?php
+if($page=="create-medicine"){
+	$found=include("views/pages/ui/medicine/create_medicine.php");
+}elseif($page=="edit-medicine"){
+	$found=include("views/pages/ui/medicine/edit_medicine.php");
+}elseif($page=="medicines"){
+	$found=include("views/pages/ui/medicine/manage_medicine.php");
+}elseif($page=="details-medicine"){
+	$found=include("views/pages/ui/medicine/details_medicine.php");
+}elseif($page=="view-medicine"){
+	$found=include("views/pages/ui/medicine/view_medicine.php");
+}
+?>

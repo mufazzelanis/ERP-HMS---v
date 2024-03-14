@@ -1,0 +1,94 @@
+[21-Jan-2024 06:27:01 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'code' doesn't have a default value in D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\models\department.class.php:15
+Stack trace:
+#0 D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\models\department.class.php(15): mysqli->query()
+#1 D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\views\pages\department\create_department.php(14): Department->save()
+#2 D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\routes\department_route.php(3): include('...')
+#3 D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\routes\route.php(10): include('...')
+#4 D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\views\layout\content_wrapper.php(5): include('...')
+#5 D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\home.php(57): include('...')
+#6 {main}
+  thrown in D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\models\department.class.php on line 15
+[21-Jan-2024 06:27:05 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'code' doesn't have a default value in D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\models\department.class.php:15
+Stack trace:
+#0 D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\models\department.class.php(15): mysqli->query()
+#1 D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\views\pages\department\create_department.php(14): Department->save()
+#2 D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\routes\department_route.php(3): include('...')
+#3 D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\routes\route.php(10): include('...')
+#4 D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\views\layout\content_wrapper.php(5): include('...')
+#5 D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\home.php(57): include('...')
+#6 {main}
+  thrown in D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\models\department.class.php on line 15
+[21-Jan-2024 06:32:24 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'code' doesn't have a default value in D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\models\department.class.php:15
+Stack trace:
+#0 D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\models\department.class.php(15): mysqli->query()
+#1 D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\views\pages\department\create_department.php(14): Department->save()
+#2 D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\routes\department_route.php(3): include('...')
+#3 D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\routes\route.php(10): include('...')
+#4 D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\views\layout\content_wrapper.php(5): include('...')
+#5 D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\home.php(57): include('...')
+#6 {main}
+  thrown in D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\models\department.class.php on line 15
+[21-Jan-2024 06:32:27 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'code' doesn't have a default value in D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\models\department.class.php:15
+Stack trace:
+#0 D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\models\department.class.php(15): mysqli->query()
+#1 D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\views\pages\department\create_department.php(14): Department->save()
+#2 D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\routes\department_route.php(3): include('...')
+#3 D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\routes\route.php(10): include('...')
+#4 D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\views\layout\content_wrapper.php(5): include('...')
+#5 D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\home.php(57): include('...')
+#6 {main}
+  thrown in D:\webserver\www\student\round56\mufazzel\Projects\ERP_HMS_v5\models\department.class.php on line 15
+[21-Jan-2024 19:37:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php:16
+Stack trace:
+#0 D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php(16): mysqli->__construct()
+#1 D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\index.php(2): require_once('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php on line 16
+[21-Jan-2024 19:37:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php:16
+Stack trace:
+#0 D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php(16): mysqli->__construct()
+#1 D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\index.php(2): require_once('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php on line 16
+[21-Jan-2024 19:37:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php:16
+Stack trace:
+#0 D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php(16): mysqli->__construct()
+#1 D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\index.php(2): require_once('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php on line 16
+[21-Jan-2024 19:37:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php:16
+Stack trace:
+#0 D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php(16): mysqli->__construct()
+#1 D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\index.php(2): require_once('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php on line 16
+[21-Jan-2024 19:37:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php:16
+Stack trace:
+#0 D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php(16): mysqli->__construct()
+#1 D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\index.php(2): require_once('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php on line 16
+[21-Jan-2024 19:37:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php:16
+Stack trace:
+#0 D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php(16): mysqli->__construct()
+#1 D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\index.php(2): require_once('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php on line 16
+[21-Jan-2024 19:37:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php:16
+Stack trace:
+#0 D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php(16): mysqli->__construct()
+#1 D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\index.php(2): require_once('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php on line 16
+[21-Jan-2024 19:37:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php:16
+Stack trace:
+#0 D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php(16): mysqli->__construct()
+#1 D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\index.php(2): require_once('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php on line 16
+[21-Jan-2024 19:37:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php:16
+Stack trace:
+#0 D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php(16): mysqli->__construct()
+#1 D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\index.php(2): require_once('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round56\mufazzel\Projects\ERP-HMS-v5\configs\db_config.php on line 16

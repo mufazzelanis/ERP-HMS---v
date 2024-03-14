@@ -1,0 +1,13 @@
+<?php
+if($page=="create-medicinecategory"){
+	$found=include("views/pages/ui/medicinecategory/create_medicinecategory.php");
+}elseif($page=="edit-medicinecategory"){
+	$found=include("views/pages/ui/medicinecategory/edit_medicinecategory.php");
+}elseif($page=="medicine_categories"){
+	$found=include("views/pages/ui/medicinecategory/manage_medicinecategory.php");
+}elseif($page=="details-medicinecategory"){
+	$found=include("views/pages/ui/medicinecategory/details_medicinecategory.php");
+}elseif($page=="view-medicinecategory"){
+	$found=include("views/pages/ui/medicinecategory/view_medicinecategory.php");
+}
+?>

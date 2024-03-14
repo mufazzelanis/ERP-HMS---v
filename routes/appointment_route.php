@@ -1,0 +1,13 @@
+<?php
+if($page=="create-appointment"){
+	$found=include("views/pages/appointment/create_appointment.php");
+}elseif($page=="edit-appointment"){
+	$found=include("views/pages/appointment/edit_appointment.php");
+}elseif($page=="appointments"){
+	$found=include("views/pages/appointment/manage_appointment.php");
+}elseif($page=="details-appointment"){
+	$found=include("views/pages/appointment/details_appointment.php");
+}elseif($page=="view-appointment"){
+	$found=include("views/pages/appointment/view_appointment.php");
+}
+?>

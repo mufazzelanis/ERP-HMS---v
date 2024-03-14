@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^api/([a-zA-Z0-9_]+)/?([a-zA-Z_]+)?/?$ api/api.php?class=$1&method=$2 [L,QSA]
+RewriteRule ^/?([a-zA-Z-0-9\-_]+)/?$ home.php?r=$1 [L,QSA]

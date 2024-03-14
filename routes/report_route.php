@@ -1,0 +1,13 @@
+<?php
+if($page=="create-report"){
+	$found=include("views/pages/ui/report/create_report.php");
+}elseif($page=="edit-report"){
+	$found=include("views/pages/ui/report/edit_report.php");
+}elseif($page=="report"){
+	$found=include("views/pages/ui/report/manage_report.php");
+}elseif($page=="details-report"){
+	$found=include("views/pages/ui/report/details_report.php");
+}elseif($page=="view-report"){
+	$found=include("views/pages/ui/report/view_report.php");
+}
+?>

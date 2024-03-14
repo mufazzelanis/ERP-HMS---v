@@ -1,0 +1,13 @@
+<?php
+if($page=="create-appointmentstatuse"){
+	$found=include("views/pages/ui/appointmentstatuse/create_appointmentstatuse.php");
+}elseif($page=="edit-appointmentstatuse"){
+	$found=include("views/pages/ui/appointmentstatuse/edit_appointmentstatuse.php");
+}elseif($page=="appointment_statuses"){
+	$found=include("views/pages/ui/appointmentstatuse/manage_appointmentstatuse.php");
+}elseif($page=="details-appointmentstatuse"){
+	$found=include("views/pages/ui/appointmentstatuse/details_appointmentstatuse.php");
+}elseif($page=="view-appointmentstatuse"){
+	$found=include("views/pages/ui/appointmentstatuse/view_appointmentstatuse.php");
+}
+?>
