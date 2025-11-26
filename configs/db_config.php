@@ -2,14 +2,14 @@
    //Remote
    
      define("SERVER","localhost");
-     define("USER","root");//rajib
+     define("USER","root");//mufazzel
      define("DATABASE","test");
      define("PASSWORD","");
 
    //Local
    
     //define("SERVER","localhost");
-    //define("USER","root");//rajib
+    //define("USER","root");//mufazzel
     //define("DATABASE","hosting");
     //define("PASSWORD","");
 
