@@ -6,6 +6,7 @@
      public function contact(){
        include("contact.php");
      }
+     
   }
   class Math{
       public function index(){

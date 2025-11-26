@@ -10,6 +10,7 @@ class AppointmentStatuse implements JsonSerializable{
 		$this->appointment_status=$appointment_status;
 
 	}
+	
 	public function save(){
 		global $db,$tx;
 		$db->query("insert into {$tx}appointment_statuses(appointment_status)values('$this->appointment_status')");

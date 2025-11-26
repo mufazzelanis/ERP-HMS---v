@@ -4,6 +4,7 @@ class JWT{
    
     private $headers;
     private $secret;
+    
 
     public function __construct(){
        $this->headers=[

@@ -7,6 +7,7 @@ header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Ac
 
 require_once("../libraries/jwt.class.php");
 
+
 foreach (glob("../helpers/*_helper.php") as $filename)
 {
     include $filename;

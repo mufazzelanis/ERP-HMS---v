@@ -14,4 +14,5 @@ export interface Product{
 	uom_id:number;
 	weight:number;
 	barcode:string;
+	
 }

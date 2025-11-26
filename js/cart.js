@@ -9,7 +9,7 @@ class Cart {
     let cart= localStorage.getItem(this.cartName);
     cart=JSON.parse(cart);
     return cart;
-   }//end getCart
+   }//end
 
   save(item){
     let cart= localStorage.getItem(this.cartName);
